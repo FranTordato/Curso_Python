@@ -1,0 +1,10 @@
+print('Hello,world!',end='1\n')#end='\n' faz quebra de linha e end junta com o print abaixo
+print(12,34 ,sep='-')#sep(separador)
+
+#comentário em python
+'''docstring'''
+"""outra forma de docstring"""
+nome='Fran'#variável
+print(type(1),type(1.0),type('Fran'),type(True))#definir tipos
+print(int('1') + 1)#coerção typecasting(alterei o tipo de string para inteiro)
+print(nome + '1')#concatenar
